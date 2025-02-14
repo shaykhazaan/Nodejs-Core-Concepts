@@ -30,3 +30,4 @@ myE.emit("bar");
 myE.emit("bar");
 myE.emit("bar");
 myE.emit("bar");
+myE.emit("bar");
