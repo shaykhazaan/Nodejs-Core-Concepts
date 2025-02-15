@@ -21,10 +21,12 @@ myE.once("bar", () => {
   console.log("An event bar occurred.");
 });
 
-//
+// invoke foo
 myE.emit("foo");
 myE.emit("foo", "some text");
 
+// invoke bar
+myE.emit("bar");
 myE.emit("bar");
 myE.emit("bar");
 myE.emit("bar");
