@@ -14,3 +14,20 @@ console.log(memContainer[2]);
 console.log(memContainer[3]);
 
 console.log(memContainer.toString("hex"));
+
+//buffer.from  method - automatically allocated bytes
+/*
+const buffer = Buffer.from([0x48, 0x69, 0x21]);
+console.log(buffer);
+console.log(buffer.toString("utf-8"));
+*/
+
+/*
+const buffer = Buffer.from("486921", "hex");
+console.log(buffer);
+console.log(buffer.toString("utf-8"));
+*/
+
+const buffer = Buffer.from("string", "utf-8");
+console.log(buffer);
+console.log(buffer.toString("utf-8"));
