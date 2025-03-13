@@ -1,0 +1,15 @@
+{
+  "name": "cluster_module",
+  "version": "1.0.0",
+  "description": "To run this app, navigate into cluster_module dirctory to run  it",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sheikh Azan <shaikhaadil00@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
